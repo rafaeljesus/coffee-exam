@@ -1,0 +1,15 @@
+{
+  "name": "coffee-exam",
+  "version": "0.0.1",
+  "private": "false",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register -C"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "~1.9.1"
+  },
+  "dependencies": {
+    "coffee-script": "~1.8.0"
+  }
+}
